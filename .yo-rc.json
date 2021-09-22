@@ -1,0 +1,11 @@
+{
+  "generator-extension": {
+    "ext_application": {
+      "Rename": [
+        "shopping",
+        "myaccount",
+        "checkout"
+      ]
+    }
+  }
+}

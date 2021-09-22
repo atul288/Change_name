@@ -1,0 +1,107 @@
+{
+    "name": "Rename",
+    "fantasyName": "Rename",
+    "vendor": "JJ",
+    "version": "1.0.0",
+    "type": "extension",
+    "target": "SCA,SCS",
+    "target_version": {
+        "SCA": ">=21.1.0",
+        "SCS": ">=21.1.0"
+    },
+    "description": "This extension will change name from Email preferences to Subscription.",
+    "skins": [],
+    "assets": {
+        "img": {
+            "files": []
+        },
+        "fonts": {
+            "files": []
+        },
+        "services": {
+            "files": [
+                "services/Rename.Service.ss"
+            ]
+        }
+    },
+    "configuration": {
+        "files": [
+            "Modules/Rename/Configuration/Rename.json"
+        ]
+    },
+    "sass": {
+        "entry_points": {
+            "shopping": "Modules/Rename/Sass/_rename-rename.scss",
+            "myaccount": "Modules/Rename/Sass/_rename-rename.scss",
+            "checkout": "Modules/Rename/Sass/_rename-rename.scss"
+        },
+        "files": [
+            "Modules/Rename/Sass/_rename-rename.scss"
+        ]
+    },
+    "templates": {
+        "application": {
+            "shopping": {
+                "files": [
+                    "Modules/Rename/Templates/jj_rename_rename.tpl"
+                ]
+            },
+            "myaccount": {
+                "files": [
+                    "Modules/Rename/Templates/jj_rename_rename.tpl"
+                ]
+            },
+            "checkout": {
+                "files": [
+                    "Modules/Rename/Templates/jj_rename_rename.tpl"
+                ]
+            }
+        }
+    },
+    "javascript": {
+        "entry_points": {
+            "shopping": "Modules/Rename/JavaScript/JJ.Rename.Rename.js",
+            "myaccount": "Modules/Rename/JavaScript/JJ.Rename.Rename.js",
+            "checkout": "Modules/Rename/JavaScript/JJ.Rename.Rename.js"
+        },
+        "application": {
+            "shopping": {
+                "files": [
+                    "Modules/Rename/JavaScript/JJ.Rename.Rename.js",
+                    "Modules/Rename/JavaScript/Rename.View.js",
+                    "Modules/Rename/JavaScript/JJ.Rename.Rename.Model.js",
+                    "Modules/Rename/JavaScript/JJ.Rename.Rename.SS2Model.js"
+                ]
+            },
+            "myaccount": {
+                "files": [
+                    "Modules/Rename/JavaScript/JJ.Rename.Rename.js",
+                    "Modules/Rename/JavaScript/Rename.View.js",
+                    "Modules/Rename/JavaScript/JJ.Rename.Rename.Model.js",
+                    "Modules/Rename/JavaScript/JJ.Rename.Rename.SS2Model.js"
+                ]
+            },
+            "checkout": {
+                "files": [
+                    "Modules/Rename/JavaScript/JJ.Rename.Rename.js",
+                    "Modules/Rename/JavaScript/Rename.View.js",
+                    "Modules/Rename/JavaScript/JJ.Rename.Rename.Model.js",
+                    "Modules/Rename/JavaScript/JJ.Rename.Rename.SS2Model.js"
+                ]
+            }
+        }
+    },
+    "ssp-libraries": {
+        "entry_point": "Modules/Rename/SuiteScript/JJ.Rename.Rename.js",
+        "files": [
+            "Modules/Rename/SuiteScript/JJ.Rename.Rename.js",
+            "Modules/Rename/SuiteScript/Rename.ServiceController.js"
+        ]
+    },
+    "local_folder": "Workspace\\Rename",
+    "suitescript2": {
+        "files": [
+            "Modules/Rename/SuiteScript2/Rename.Service.ss"
+        ]
+    }
+}
